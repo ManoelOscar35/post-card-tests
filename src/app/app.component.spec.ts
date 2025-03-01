@@ -15,8 +15,8 @@ describe('AppComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create the app', () => {
-    expect(component).not.toBeTruthy();
+  it('should create the app!', () => {
+    expect(component).toBeTruthy();
   });
 
   it('should add post to the list', () => {
